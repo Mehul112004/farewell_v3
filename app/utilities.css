@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Brightwall";
+  src: url("/Brightwall.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+.bg-container {
+  background-image: url("/bg.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+.header{
+  background-color: rgba(0, 0, 0, 0.499);
+  /* border-width: 1px; */
+  backdrop-filter: blur(20);
+  /* border-color: #dca20a; */
+  box-shadow: 0 0 5px #dca20a;
+}
+.font-brightwall {
+  font-family: "Brightwall";
+}
+.colored-text {
+  color: #dca20a;
+}
+.present{
+  font-size: max(2vh,2vw);
+}
+.glow {
+  font-size: max(6vh, 6vw);
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 20px #fff, 0 0 30px #dca20a, 0 0 40px #dca20a,
+    0 0 50px #dca20a, 0 0 60px #dca20a, 0 0 70px #dca20a, 0 0 80px #dca20a;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate; */
+  /* -moz-animation: glow 1s ease-in-out infinite alternate; */
+  /* animation: glow 1s ease-in-out infinite alternate; */
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dca20a,
+    0 0 40px #dca20a, 0 0 50px #dca20a, 0 0 60px #dca20a, 0 0 70px #dca20a;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #dca20a, 0 0 40px #dca20a,
+    0 0 50px #dca20a, 0 0 60px #dca20a, 0 0 70px #dca20a, 0 0 80px #dca20a;
+  }
+}
+.main-heading {
+  font-size: max(3.5vh,3.5vw);
+}
+.secondary-heading {
+  font-size: max(2.5vh,2.5vw);
+}
+.button {
+  background-color: rgba(0, 0, 0, 0.538);
+  backdrop-filter: blur(10);
+  border-width: 2px;
+  border-color: #dca20a;
+  border-color: #dca20a;
+  box-shadow: 0 0 10px #dca20a;
+  transition: all linear 0.2s;
+  animation: glowButton 1s ease-in-out infinite alternate;
+}
+.up-down {
+  animation: move 1s ease-in infinite alternate; /* Animation properties */
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0); /* Start at original position */
+  }
+  50% {
+    transform: translateY(-10px); /* Move down 10 pixels */
+  }
+  100% {
+    transform: translateY(0); /* Return to original position */
+  }
+}

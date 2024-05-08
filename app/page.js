@@ -8,17 +8,17 @@ const events = [
   {
     title: "Pre-Convocation",
     description: "Memories made, futures planned",
-    image: "/convo.webp"
+    image: "/convo.webp",
   },
   {
     title: "",
     description: "Let loose and groove one last time",
-    image: "/dance.jpg"
+    image: "/dance.jpg",
   },
   {
     title: "",
     description: "One last hurrah at the Farewell Games Night!",
-    image:"/games.jpg"
+    image: "/games.jpg",
   },
   {
     title: "RampWalk",
@@ -28,7 +28,7 @@ const events = [
   {
     title: "Exciting Prizes",
     description: "Dance your way to amazing prizes",
-    image:"/bg.jpg"
+    image: "/convo.webp",
   },
   {
     title: "DJ-Night",
@@ -42,14 +42,17 @@ export default function Home() {
     <main className=" overflow-hidden">
       <div className="bg-container flex flex-col justify-start items-center overflow-hidden sm:gap-10 gap-6 relative">
         <div className=" up-down absolute top-[80vh] sm:top-[85vh] sm:left-[90vw]">
-          <Image
-            src="/scroll.png"
-            alt="scroll"
-            width={100}
-            height={150}
-            className=" w-22 h-18 sm:w-24 sm:h-16"
-          />
+          <a href="#second-page">
+            <Image
+              src="/scroll.png"
+              alt="scroll"
+              width={100}
+              height={150}
+              className=" w-22 h-18 sm:w-24 sm:h-16"
+            />
+          </a>
         </div>
+
         <header className="flex justify-between items-start w-screen sm:px-10 px-6 py-6 header">
           <Image
             src={"/R.png"}
@@ -99,7 +102,10 @@ export default function Home() {
 
         {/* </div> */}
       </div>
-      <div className="overflow-hidden flex flex-col justify-center items-center bg-black">
+      <div
+        className="overflow-hidden flex flex-col justify-center items-center bg-black"
+        id="second-page"
+      >
         <h1 className=" text-white text-center font-bold font-mono main-heading pt-4">
           Events
         </h1>

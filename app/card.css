@@ -8,6 +8,9 @@
   font-weight: bold;
   border-radius: 15px;
   cursor: pointer;
+  border-width: 2px;
+  border-color: rgba(255, 255, 255, 0.467);
+  box-shadow: 0 0 10px white;
 }
 .image{
   position: absolute;

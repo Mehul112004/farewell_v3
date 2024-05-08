@@ -71,7 +71,7 @@ export const TextDecrypt = ({text,classNames,interval=20}) => {
     useEffect(() => {
       setValue(text)
 
-    }, [])
+    },[])
     
     // console.log(value);
     // setValue(text)

@@ -33,13 +33,16 @@
   font-size: max(6vh, 6vw);
   color: #fff;
   text-align: center;
-  text-shadow: 0 0 20px #fff, 0 0 30px #dca20a, 0 0 40px #dca20a,
-    0 0 50px #dca20a, 0 0 60px #dca20a, 0 0 70px #dca20a, 0 0 80px #dca20a;
+  text-shadow: 0 0 20px #fff, 0 0 30px #dca20a, 0 0 40px #dca20a;
   /* -webkit-animation: glow 1s ease-in-out infinite alternate; */
   /* -moz-animation: glow 1s ease-in-out infinite alternate; */
   /* animation: glow 1s ease-in-out infinite alternate; */
 }
 
+/* .scroll-class{
+  top:80vh;
+  left: 80vw;
+} */
 @keyframes glow {
   from {
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #dca20a,

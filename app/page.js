@@ -127,7 +127,7 @@ export default function Home() {
         <h1 className=" text-white text-center font-bold font-mono main-heading pt-4">
           Events
         </h1>
-        <div className="grid sm:grid-cols-3 grid-cols-1 place-content-center place-items-center sm:gap-10 sm:p-8 gap-5 p-5">
+        <div className="">
           {events.map((item) => {
             return (
               <GlowingCard

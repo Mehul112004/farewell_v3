@@ -41,7 +41,7 @@ const events = [
     title: "",
     event: "Seeing Off With Honour",
     description: "Football Ground"  ,
-    Link:"https://forms.gle/JaVhkd7EPHjEwRTAA",
+    Link:"https://forms.gle/rFa8hZ6vP99WCB8G6",
     time:"6:20 PM",
     image: "/taggiving.jpg",
   },

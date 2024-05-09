@@ -67,7 +67,7 @@ export default function Home() {
               alt="scroll"
               width={100}
               height={150}
-              className=" w-22 h-18 sm:w-24 sm:h-16"
+              className=" w-22 h-18 sm:w-24 sm:h-16 rotate-180"
             />
           </a>
         </div>
@@ -80,8 +80,8 @@ export default function Home() {
             height={60}
             className=" w-20 h-16 sm:w-36 sm:h-32"
           />
-          <div className="flex flex-col justify-center items-center sm:gap-8 sm:py-6">
-            <h1 className=" sm:text-[3vw] text-lg font-bold text-center text-white font-mono ">
+          <div className="">
+            <h1 className=" sm:text-[3vw] text-lg">
               Swami Keshvanand Institute of Technology,
             </h1>
             <h1 className=" sm:text-[3vw] text-lg font-bold text-center text-white font-mono text-wrap ">
@@ -106,13 +106,13 @@ export default function Home() {
           <TextDecrypt
             text={"Presents"}
             interval={100}
-            classNames={"font-brightwall present text-white"}
+            classNames={""}
           />
           {/* <h1 className="font-brightwall colored-text glow">GoodBye Gala’24</h1> */}
           <TextDecrypt
             text={"GoodBye Gala’24"}
             interval={50}
-            classNames={"font-brightwall colored-text glow"}
+            classNames={""}
           />
         </div>
 
@@ -128,7 +128,7 @@ export default function Home() {
         <h1 className=" text-white text-center font-bold font-mono main-heading pt-4">
           Events
         </h1>
-        <div className="grid sm:grid-cols-3 grid-cols-1 place-content-center place-items-center sm:gap-10 sm:p-8 gap-5 p-5">
+        <div className="">
           {events.map((item) => {
             return (
               <GlowingCard

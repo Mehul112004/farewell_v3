@@ -47,7 +47,7 @@ const events = [
   },
   {
     title: "",
-    event: "DJ Night",
+    event: "Clip-Clash",
     description: "Football Ground"  ,
     time:"6:30 PM Onwards",
     Link:"https://ditto.tv/wp-content/uploads/2020/03/AdobeStock_166872827-2048x1176.jpeg",

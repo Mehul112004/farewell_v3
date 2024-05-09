@@ -79,8 +79,8 @@ export default function Home() {
             height={60}
             className=" w-20 h-16 sm:w-36 sm:h-32"
           />
-          <div className="flex flex-col justify-center items-center sm:gap-8 sm:py-6">
-            <h1 className=" sm:text-[3vw] text-lg font-bold text-center text-white font-mono ">
+          <div className="">
+            <h1 className=" sm:text-[3vw] text-lg">
               Swami Keshvanand Institute of Technology,
             </h1>
             <h1 className=" sm:text-[3vw] text-lg font-bold text-center text-white font-mono text-wrap ">
@@ -105,13 +105,13 @@ export default function Home() {
           <TextDecrypt
             text={"Presents"}
             interval={100}
-            classNames={"font-brightwall present text-white"}
+            classNames={""}
           />
           {/* <h1 className="font-brightwall colored-text glow">GoodBye Gala’24</h1> */}
           <TextDecrypt
             text={"GoodBye Gala’24"}
             interval={50}
-            classNames={"font-brightwall colored-text glow"}
+            classNames={""}
           />
         </div>
 

@@ -9,8 +9,8 @@ function GlowingCard({title,event,description,time,Link,image}) {
       <div className="image overflow-hidden w-full h-full rounded-3xl flex justify-center items-center">
       <img src={image} className=""/>
       </div>
-      <div className="after">
-        <p className="text text-sm text-white text-center">{event}<br/>
+      <div className="">
+        <p className="">{event}<br/>
         {description}<br/>
         {time}<br/>
         

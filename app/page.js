@@ -34,7 +34,7 @@ const events = [
     event: "RampWalk",
     description: "Football Ground"  ,
     time:"5:50 PM",
-    Link:"https://drive.google.com/drive/folders/1tE2M52Ez0l5AWEZP3mP8WhBe5E3NyRDd?usp=sharing",
+    Link:"https://forms.gle/7BfRyXN8D2EgYhgKA",
     image: "/ramp.jpg",
   },
   {

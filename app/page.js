@@ -66,7 +66,7 @@ export default function Home() {
               alt="scroll"
               width={100}
               height={150}
-              className=" w-22 h-18 sm:w-24 sm:h-16"
+              className=" w-22 h-18 sm:w-24 sm:h-16 rotate-180"
             />
           </a>
         </div>

@@ -3,36 +3,54 @@ import "./utilities.css";
 import CustomButton from "@/components/CustomButton";
 import { TextDecrypt } from "@/components/TextDecrypt";
 import GlowingCard from "@/components/GlowingCard";
+import Link from "next/link";
 
 const events = [
   {
-    title: "Pre-Convocation",
-    description: "Memories made, futures planned",
+    title: "",
+    event: "Pre-Convocation",
+    description: "Gyan Mandir Auditorium"  ,
+    time:"3:00 PM",
+    Link:"https://docs.google.com/document/d/1O5W2tFW_HpQgN-n3HhTLeL-orS_dhAa4/edit?usp=sharing&ouid=110211639916382437609&rtpof=true&sd=true",
     image: "/convo.webp",
   },
   {
     title: "",
-    description: "Let loose and groove one last time",
+    event: "Dance Performances",
+    description: "Football Ground"  ,
+    Link:"https://forms.gle/mdXhQvEZL95rdN5m8",
+    time:"4:35 PM",
     image: "/dance.jpg",
   },
   {
     title: "",
-    description: "One last hurrah at the Farewell Games Night!",
+    event: "Games",
+    description: "Football Ground",
+    time:"4:45 PM",
     image: "/games.jpg",
   },
   {
-    title: "RampWalk",
-    description: "Strike a pose and own the stage",
+    title: "",
+    event: "RampWalk",
+    description: "Football Ground"  ,
+    time:"5:50 PM",
+    Link:"https://drive.google.com/drive/folders/1tE2M52Ez0l5AWEZP3mP8WhBe5E3NyRDd?usp=sharing",
     image: "/ramp.jpg",
   },
   {
-    title: "Exciting Prizes",
-    description: "Dance your way to amazing prizes",
-    image: "/convo.webp",
+    title: "",
+    event: "Seeing Off With Honour",
+    description: "Football Ground"  ,
+    Link:"https://forms.gle/JaVhkd7EPHjEwRTAA",
+    time:"6:20 PM",
+    image: "/taggiving.jpg",
   },
   {
-    title: "DJ-Night",
-    description: "Music, memories, and one last party",
+    title: "",
+    event: "DJ Night",
+    description: "Football Ground"  ,
+    time:"6:30 PM Onwards",
+    Link:"https://ditto.tv/wp-content/uploads/2020/03/AdobeStock_166872827-2048x1176.jpeg",
     image: "/dj.jpg",
   },
 ];
@@ -115,7 +133,10 @@ export default function Home() {
               <GlowingCard
                 key={item}
                 title={item.title}
+                event={item.event}
                 description={item.description}
+                time={item.time}
+                Link={item.Link}
                 image={item.image}
               />
             );

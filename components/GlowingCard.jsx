@@ -2,7 +2,7 @@ import React from "react";
 import "../app/card.css";
 import Image from "next/image";
 
-function GlowingCard({title,description,image}) {
+function GlowingCard({title,event,description,time,Link,image}) {
   return (
     <div class="card sm:w-[30vw] sm:h-[35vh] w-[34vh] h-[22vh] text-white">
       <p className="">{title}</p>
@@ -10,8 +10,15 @@ function GlowingCard({title,description,image}) {
       <img src={image} className=""/>
       </div>
       <div className="after">
-        <p className="text text-sm text-white">{description}</p>
-      </div>
+        <p className="text text-sm text-white text-center">{event}<br/>
+        {description}<br/>
+        {time}<br/>
+        
+       < a href={Link} className="text text-sm text-white text-center" target='blank'>Click Here</a>
+       </p>
+        </div>
+     
+      
     </div>
   );
 }
